@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--- Iconscout CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Responsive Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <header>Registration</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required > 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Date Of Birth</label>
+                            <input type="date" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="email" placeholder="Enter your email" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="tel" placeholder="Enter mobile number" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Gender</label>
+                            <input type="text" placeholder="Enter your gender" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Occupation</label>
+                            <input type="text" placeholder="Enter your occupation" required> 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Identity Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Universitas</label>
+                            <input type="text" placeholder="Enter universitas" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>NIM</label>
+                            <input type="text" placeholder="Enter nim"required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Class</label>
+                            <input type="text" placeholder="Enter class" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Program Studi</label>
+                            <input type="text" placeholder="Enter program studi" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Fakultas</label>
+                            <input type="text" placeholder="Enter fakultas" required> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Unit Kampus</label>
+                            <input type="text" placeholder="Enter unit kampus"required> 
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button type="button" class="nextBtn">
+                            <span class="btnText">Next</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form second">
+                <div class="details Address">
+                    <span class="title">Address Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Address Type</label>
+                            <input type="text" placeholder="Enter address type"> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>Nationality</label>
+                            <input type="text" placeholder="Enter nationality"> 
+                        </div>
+
+                        <div class="input-field">
+                            <label>State</label>
+                            <input type="text" placeholder="Enter state" > 
+                        </div>
+                    </div>
+
+                    <div class="buttons">
+                        <button type="button" class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText">Back</span>
+                        </button>
+                        <button type="submit" class="submit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
